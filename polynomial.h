@@ -1,9 +1,9 @@
 /**
  * @file polynomial.h
  * @brief Biblioteca para manipulacao de polinomios
- * @author [Seu Nome]
+ * @author João Vitor Firmino de Almeida
  * @version 1.0
- * @date 2024
+ * @date 2025
  * 
  * Esta biblioteca implementa operacoes basicas com polinomios, incluindo:
  * - Criacao e destruicao de polinomios
