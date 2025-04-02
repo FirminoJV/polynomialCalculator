@@ -24,14 +24,14 @@ Para compilar o projeto, execute:
 make
 ```
 
-Isso irá gerar o executável `polynomial_calculator`.
+Isso irá gerar o executável `calculator`.
 
 ## Uso
 
 Execute o programa com:
 
 ```bash
-./polynomial_calculator
+./calculator
 ```
 
 O programa apresentará um menu com as seguintes opções:
@@ -77,4 +77,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ## Autor
 
-[Seu Nome] 
+João Vitor Firmino de Almeida 
