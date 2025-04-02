@@ -2,19 +2,10 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 LDFLAGS = -lm
 
-SRCS = polynomial.c main.c
-OBJS = $(SRCS:.c=.o)
-TARGET = calculator
+all: calculator
 
-.PHONY: all clean
-
-all: $(TARGET)
-
-$(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $(TARGET) $(LDFLAGS)
-
-%.o: %.c polynomial.h
-	$(CC) $(CFLAGS) -c $< -o $@
+calculator: interface.c polynomial.c polynomial.h
+	$(CC) $(CFLAGS) interface.c polynomial.c -o calculator $(LDFLAGS)
 
 clean:
-	rm -f $(OBJS) $(TARGET) 
+	rm -f calculator *.o 

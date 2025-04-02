@@ -24,14 +24,14 @@ Para compilar o projeto, execute:
 make
 ```
 
-Isso irá gerar o executável `polynomial_calculator`.
+Isso irá gerar o executável `calculator`.
 
 ## Uso
 
 Execute o programa com:
 
 ```bash
-./polynomial_calculator
+./calculator
 ```
 
 O programa apresentará um menu com as seguintes opções:
@@ -60,7 +60,7 @@ Para calcular P(x) = 4x^6 + 3x^5 - 6x^3 - 8x^2 + 3x + 4 para x = 2:
 
 - `polynomial.h`: Arquivo de cabeçalho com as declarações
 - `polynomial.c`: Implementação das funções da biblioteca
-- `main.c`: Programa principal com interface do usuário
+- `interface.c`: Interface do usuário e menu principal
 - `Makefile`: Script para compilação do projeto
 
 ## Limpeza
@@ -77,4 +77,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ## Autor
 
-[Seu Nome] 
+João Vitor Firmino de Almeida
